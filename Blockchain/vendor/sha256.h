@@ -1,5 +1,6 @@
 #ifndef SHA256_H
 #define SHA256_H
+#define _CRT_SECURE_NO_WARNINGS
 #include <string>
 
 class SHA256 {

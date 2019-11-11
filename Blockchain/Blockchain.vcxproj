@@ -124,10 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Blockchain.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="vendor\sha256.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Block.h" />
+    <ClInclude Include="Blockchain.h" />
     <ClInclude Include="vendor\sha256.h" />
   </ItemGroup>
   <ItemGroup>

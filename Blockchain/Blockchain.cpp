@@ -1,8 +1,7 @@
 #include "Blockchain.h"
 
-Blockchain::Blockchain() {
+Blockchain::Blockchain(uint32_t difficulty) : m_Difficulty(difficulty) {
   m_Chain.emplace_back(Block(0, "Initial Block"));
-  m_Difficulty = 6;
 }
 
 void Blockchain::AddBlock(Block newBlock) {

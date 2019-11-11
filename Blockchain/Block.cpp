@@ -20,6 +20,7 @@ void Block::MineBlock(uint32_t difficulty) {
   for (uint32_t i = 0; i < difficulty; i++) {
     cstr[i] = '0';
   }
+  cstr[difficulty] = '\0';
 
   std::string str(cstr);
 
